@@ -16,8 +16,10 @@ int main(void) {
         framebuffer[i] = RGB15(31, 31, 31);
     }
     
-    // 4. Set software brightness to normal (0) for the main screen (1)
-    // -16 = black, 0 = normal (default), 16 = white
+    // 4. Set software brightness to normal (0) for the main screen (1).
+    // This is a safety measure to reset any screen fade-out (dark state) carried over 
+    // from the homebrew launcher/bootloader, ensuring the screen displays at normal brightness.
+    // (-16 = black, 0 = normal/default, 16 = white)
     setBrightness(1, 0);
 
     // 5. Keep the program running in a loop
