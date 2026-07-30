@@ -20,4 +20,4 @@ This will generate `nds_white_screen.nds` in the root folder.
 ## How to Run
 
 - **Emulator**: Run the `.nds` file on DS emulators like melonDS or DeSmuME.
-- **Real Hardware**: Copy `nds_white_screen.nds` to your DS flashcard (e.g. R4) and run it on a real console. Use the console's physical brightness settings (Select + brightness button on DS Lite) to set the backlight to maximum.
+- **Real Hardware**: Copy `nds_white_screen.nds` to your DS flashcard (e.g. DSpico) and run it on a real console. Use the console's physical brightness settings (Select + brightness button on DS Lite) to set the backlight to maximum.
